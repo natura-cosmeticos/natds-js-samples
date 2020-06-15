@@ -1,0 +1,5 @@
+# react-scripts build folder
+build
+
+# avoid ignoring public folder
+!public

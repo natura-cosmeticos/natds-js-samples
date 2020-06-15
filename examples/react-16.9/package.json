@@ -1,0 +1,47 @@
+{
+  "name": "@natds-js-examples/react-16.9",
+  "private": true,
+  "description": "Example project for Design System React Web with React 16.9",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "react-scripts build",
+    "start": "react-scripts start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natura-cosmeticos/natds-js-examples.git",
+    "directory": "examples/react-16.9"
+  },
+  "keywords": [
+    "natds",
+    "examples",
+    "js",
+    "javascript",
+    "react",
+    "web"
+  ],
+  "author": "Natura & Co. <designsystem@natura.net>",
+  "bugs": {
+    "url": "https://github.com/natura-cosmeticos/nxxatds-js-examples/issues"
+  },
+  "dependencies": {
+    "@naturacosmeticos/natds-web": "^0.6.8"
+  },
+  "devDependencies": {
+    "react": "16.9",
+    "react-dom": "16.9",
+    "react-scripts": "3.4.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
