@@ -5,11 +5,11 @@
   ],
   "packageRules": [
     {
-      "paths": ["examples/cdn"],
+      "paths": ["examples/cdn/package.json"],
       "labels": ["cdn"]
     },
     {
-      "paths": ["examples/react-16.9"],
+      "paths": ["examples/react-16.9/package.json"],
       "labels": ["react@16.9"]
     }
   ],
