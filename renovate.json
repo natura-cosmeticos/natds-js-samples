@@ -5,6 +5,7 @@
     "default:pinVersions"
   ],
   "masterIssue": true,
+  "masterIssueAutoclose": true,
   "packageRules": [
     {
       "paths": ["examples/cdn/package.json"],
