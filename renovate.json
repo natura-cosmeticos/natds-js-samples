@@ -3,6 +3,7 @@
   "extends": [
     "config:base"
   ],
+  "masterIssue": true,
   "packageRules": [
     {
       "paths": ["examples/cdn/package.json"],
