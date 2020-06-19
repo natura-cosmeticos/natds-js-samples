@@ -1,10 +1,9 @@
 import React from 'react'
-import {Button, Provider, themes} from '@naturacosmeticos/natds-web'
-
-const { natura } = themes
+import { Provider, Button } from "@naturacosmeticos/natds-web";
 
 export const App = () => (
-    <Provider theme={natura.light}>
+    <Provider>
         <Button color={"primary"} variant={"contained"}>Button</Button>
     </Provider>
 )
+
