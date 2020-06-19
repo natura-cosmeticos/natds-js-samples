@@ -3,6 +3,11 @@
   "scripts": {
     "start": "webpack-dev-server --mode=development --port 9000 --env.isLocal=true"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natura-cosmeticos/natds-js-examples.git",
+    "directory": "examples/single-spa/root"
+  },
   "devDependencies": {
     "@babel/core": "7.10.3",
     "babel-loader": "8.1.0",

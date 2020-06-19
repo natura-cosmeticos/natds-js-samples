@@ -1,0 +1,9 @@
+{
+  "name": "@natura-cosmeticos/natds-js-examples",
+  "private": false,
+  "workspaces": [
+    "examples/cdn",
+    "examples/react-16.9",
+    "examples/single-spa"
+  ]
+}
