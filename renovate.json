@@ -1,17 +1,25 @@
 {
-  "enabled": true,
   "extends": [
-    "config:base"
+    "config:base",
+    "default:enableVulnerabilityAlerts",
+    "default:pinVersions"
   ],
   "masterIssue": true,
   "packageRules": [
     {
       "paths": ["examples/cdn/package.json"],
+      "enabled": true,
       "labels": ["cdn"]
     },
     {
       "paths": ["examples/react-16.9/package.json"],
-      "labels": ["react-16.9"]
+      "labels": ["react-16.9"],
+      "enabled": true
+    },
+    {
+      "paths": ["package.json"],
+      "labels": ["root"],
+      "enabled": true
     }
   ],
   "semanticCommits": true
