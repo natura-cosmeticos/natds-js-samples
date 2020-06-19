@@ -1,0 +1,18 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "examples/cdn/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "examples/react-16.9/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "examples/single-spa/"
+    schedule:
+      interval: "daily"
