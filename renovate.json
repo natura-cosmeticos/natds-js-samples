@@ -11,7 +11,7 @@
     },
     {
       "paths": ["examples/react-16.9/package.json"],
-      "labels": ["react@16.9"]
+      "labels": ["react-16.9"]
     }
   ],
   "semanticCommits": true
