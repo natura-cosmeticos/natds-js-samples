@@ -25,6 +25,7 @@
     "url": "https://github.com/natura-cosmeticos/nxxatds-js-examples/issues"
   },
   "engines": {
+    "node": ">=9.3.0",
     "npm": ">=5.7.0"
   }
 }

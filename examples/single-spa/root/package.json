@@ -20,6 +20,7 @@
     "webpack-dev-server": "3.11.0"
   },
   "engines": {
+    "node": ">=9.3.0",
     "npm": ">=5.7.0"
   }
 }
