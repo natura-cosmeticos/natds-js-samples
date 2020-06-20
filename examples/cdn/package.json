@@ -23,5 +23,8 @@
   "author": "Natura & Co. <designsystem@natura.net>",
   "bugs": {
     "url": "https://github.com/natura-cosmeticos/nxxatds-js-examples/issues"
+  },
+  "engines": {
+    "npm": ">=5.7.0"
   }
 }

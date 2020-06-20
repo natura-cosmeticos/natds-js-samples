@@ -5,5 +5,8 @@
     "examples/cdn",
     "examples/react-16.9",
     "examples/single-spa"
-  ]
+  ],
+  "engines": {
+    "npm": ">=5.7.0"
+  }
 }
