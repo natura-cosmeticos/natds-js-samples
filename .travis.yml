@@ -1,0 +1,12 @@
+language: node_js
+os: linux
+dist: xenial
+notifications:
+  email: false
+matrix:
+  include:
+    - env: TARGET=examples/react-16.9
+before_install: "cd $TARGET"
+install: "npm ci"
+script: "npm test"
+after_script: "cd .."
