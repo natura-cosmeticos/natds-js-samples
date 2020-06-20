@@ -6,7 +6,12 @@ notifications:
 matrix:
   include:
     - env: TARGET=examples/react-16.9
-before_install: "cd $TARGET"
+before_install:
+  - "npm install -g npm@latest"
+  - "cd $TARGET"
+
+# https://docs.travis-ci.com/user/languages/javascript-with-nodejs/#npm-ci-support
 install: "npm ci"
+
 script: "npm test"
 after_script: "cd .."
