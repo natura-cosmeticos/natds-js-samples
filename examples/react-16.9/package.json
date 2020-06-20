@@ -5,7 +5,9 @@
   "main": "src/index.js",
   "scripts": {
     "build": "react-scripts build",
-    "start": "react-scripts start"
+    "pretest": "npm run build",
+    "start": "react-scripts start",
+    "test": "jest --passWithNoTests"
   },
   "repository": {
     "type": "git",
@@ -30,7 +32,8 @@
     "react-dom": "16.9"
   },
   "devDependencies": {
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-test-renderer": "^16.13.1"
   },
   "browserslist": {
     "production": [
