@@ -15,5 +15,6 @@
     <orderEntry type="library" name="@naturacosmeticos/natds-web" level="application" />
     <orderEntry type="library" name="react-dom" level="application" />
     <orderEntry type="library" name="react" level="application" />
+    <orderEntry type="library" name="@types/jest" level="application" />
   </component>
 </module>
