@@ -1,18 +1,21 @@
 language: node_js
 os: linux
 dist: xenial
-node: lts/*
 notifications:
   email: false
-matrix:
-  include:
-    - env: TARGET=examples/react-16.9
+node_js:
+  - 10.16.3
+  - 12.17.0
+env:
+  - REACT_VERSION=16.9
+  - REACT_VERSION=16.12
+  - REACT_VERSION=16.13.1
 before_install:
-  - "npm install -g npm@latest"
-  - "cd $TARGET"
-
-# https://docs.travis-ci.com/user/languages/javascript-with-nodejs/#npm-ci-support
-install: "npm ci"
-
-script: "npm test"
-after_script: "cd .."
+  - "cd $TRAVIS_BUILD_DIR/examples/react"
+install:
+  - "npm ci"
+  - "npm install react@$REACT_VERSION react-dom@$REACT_VERSION"
+script:
+  - "npm test"
+after_script:
+  - "cd $TRAVIS_BUILD_DIR"
