@@ -3,7 +3,7 @@
   "private": false,
   "workspaces": [
     "examples/cdn",
-    "examples/react-16.9",
+    "examples/react",
     "examples/single-spa"
   ],
   "engines": {
