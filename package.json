@@ -1,6 +1,6 @@
 {
   "name": "@natura-cosmeticos/natds-js-examples",
-  "private": false,
+  "private": true,
   "workspaces": [
     "examples/cdn",
     "examples/react",
