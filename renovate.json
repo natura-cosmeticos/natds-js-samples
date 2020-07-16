@@ -4,6 +4,7 @@
     "default:enableVulnerabilityAlerts",
     "default:pinVersions"
   ],
+  "labels": ["dependencies", "renovate"],
   "lockFileMaintenance": { "enabled": true },
   "masterIssue": true,
   "masterIssueAutoclose": true,
@@ -11,16 +12,16 @@
     {
       "paths": ["examples/cdn/package.json"],
       "enabled": true,
-      "labels": ["cdn"]
+      "labels": ["cdn", "dependencies", "renovate"]
     },
     {
-      "paths": ["examples/react-16.9/package.json"],
-      "labels": ["react-16.9"],
+      "paths": ["examples/react/package.json"],
+      "labels": ["dependencies", "react", "renovate"],
       "enabled": true
     },
     {
       "paths": ["package.json"],
-      "labels": ["root"],
+      "labels": ["dependencies", "renovate" "root"],
       "enabled": true
     }
   ],
