@@ -1,5 +1,5 @@
 {
-  "name": "@natds-js-examples/react-16.9",
+  "name": "@natds-js-examples/react",
   "private": true,
   "description": "Example project for Design System React Web with React 16.9",
   "main": "src/index.js",
@@ -27,7 +27,7 @@
     "url": "https://github.com/natura-cosmeticos/nxxatds-js-examples/issues"
   },
   "dependencies": {
-    "@naturacosmeticos/natds-web": "0.8.0",
+    "@naturacosmeticos/natds-web": "0.11.2",
     "react": "16.9",
     "react-dom": "16.9"
   },
