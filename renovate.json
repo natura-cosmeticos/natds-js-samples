@@ -4,6 +4,7 @@
     "default:enableVulnerabilityAlerts",
     "default:pinVersions"
   ],
+  "lockFileMaintenance": { "enabled": true },
   "masterIssue": true,
   "masterIssueAutoclose": true,
   "packageRules": [
