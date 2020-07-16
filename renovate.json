@@ -21,7 +21,7 @@
     },
     {
       "paths": ["package.json"],
-      "labels": ["dependencies", "renovate" "root"],
+      "labels": ["dependencies", "renovate", "root"],
       "enabled": true
     }
   ],
