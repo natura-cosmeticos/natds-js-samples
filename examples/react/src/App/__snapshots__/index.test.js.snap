@@ -177,7 +177,7 @@ exports[`App renders correctly 1`] = `
         "MuiAlertTitle": Object {
           "root": Object {
             "fontSize": "1.25rem",
-            "fontWeight": 600,
+            "fontWeight": 500,
           },
         },
         "MuiAvatar": Object {
@@ -543,6 +543,11 @@ exports[`App renders correctly 1`] = `
             },
           },
         },
+        "MuiTableSortLabel": Object {
+          "icon": Object {
+            "marginLeft": 8,
+          },
+        },
         "MuiTextField": Object {
           "& .MuiInputLabel": Object {
             "marginTop": "20px",
@@ -759,7 +764,7 @@ exports[`App renders correctly 1`] = `
         "button": Object {
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "0.875rem",
-          "fontWeight": 600,
+          "fontWeight": 500,
           "lineHeight": 1.75,
           "textTransform": "uppercase",
         },
@@ -772,7 +777,7 @@ exports[`App renders correctly 1`] = `
         "fontFamily": "\\"Roboto\\", sans-serif",
         "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
         "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-        "fontFamilyBrand3": undefined,
+        "fontFamilyBrand3": null,
         "fontSize": 14,
         "fontWeightBold": 700,
         "fontWeightLight": 300,
@@ -781,13 +786,13 @@ exports[`App renders correctly 1`] = `
         "h1": Object {
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "6rem",
-          "fontWeight": 300,
+          "fontWeight": 400,
           "lineHeight": 1.167,
         },
         "h2": Object {
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "3.75rem",
-          "fontWeight": 300,
+          "fontWeight": 400,
           "lineHeight": 1.2,
         },
         "h3": Object {
@@ -811,14 +816,14 @@ exports[`App renders correctly 1`] = `
         "h6": Object {
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "1.25rem",
-          "fontWeight": 600,
+          "fontWeight": 500,
           "lineHeight": 1.6,
         },
         "htmlFontSize": 16,
         "overline": Object {
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "0.75rem",
-          "fontWeight": 400,
+          "fontWeight": 500,
           "lineHeight": 2.66,
           "textTransform": "uppercase",
         },
@@ -827,7 +832,7 @@ exports[`App renders correctly 1`] = `
         "subtitle1": Object {
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "1rem",
-          "fontWeight": 400,
+          "fontWeight": 500,
           "lineHeight": 1.75,
         },
         "subtitle2": Object {
