@@ -35,7 +35,7 @@
     "@babel/preset-env": "^7.12.1",
     "@babel/preset-react": "^7.12.1",
     "@babel/runtime": "^7.12.1",
-    "@naturacosmeticos/natds-web": "0.15.2",
+    "@naturacosmeticos/natds-web": "0.24.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "webpack-config-single-spa-react": "^1.17.4"
