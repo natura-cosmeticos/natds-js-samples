@@ -41,7 +41,7 @@
     "webpack-config-single-spa-react": "^1.17.4"
   },
   "devDependencies": {
-    "react-scripts": "^3.4.2",
+    "react-scripts": "^4.0.0",
     "react-test-renderer": "^16.13.1",
     "single-spa-react": "^3.1.0",
     "systemjs-webpack-interop": "^2.1.2",
