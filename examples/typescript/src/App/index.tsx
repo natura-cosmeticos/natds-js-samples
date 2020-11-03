@@ -1,8 +1,9 @@
-import * as React from 'react';
-import {Button, Paper, TextField} from "@naturacosmeticos/natds-web";
+import React from 'react';
+import { Button, Paper, TextField } from "@naturacosmeticos/natds-web";
+
 
 export const App = () => (
-    <Paper component={"form"}>
+    <Paper component="form">
         <TextField
             helpText={"Informe um e-mail válido da Natura"}
             label={"E-mail"}

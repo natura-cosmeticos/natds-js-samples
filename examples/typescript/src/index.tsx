@@ -1,13 +1,5 @@
-import * as React from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
-import { App } from './App'
-import {Provider} from "@naturacosmeticos/natds-web";
+import { Root } from './root';
 
-ReactDOM.render(
-    <React.StrictMode>
-        <Provider>
-            <App />
-        </Provider>
-    </React.StrictMode>,
-    document.getElementById('root')
-);
+ReactDOM.render(<Root />, document.getElementById('root'));
