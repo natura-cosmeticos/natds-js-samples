@@ -34,7 +34,7 @@ module.exports = (env) => {
             }),
             new CleanWebpackPlugin()
         ],
-        externals: ["single-spa", /^@natura-cosmeticos\/.+$/],
+        externals: ["single-spa"],
     }
 
     return result
