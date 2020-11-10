@@ -24,6 +24,22 @@
     <script src="https://cdn.jsdelivr.net/npm/systemjs/dist/system.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/systemjs/dist/extras/amd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/systemjs/dist/extras/named-exports.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-icons@1.0.0-alpha.0/dist/natds-icons.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-icons@1.0.0-alpha.0/dist/natds-icons.css"
+        rel="stylesheet" />
+    <style>
+        body {
+            font-family: Roboto;
+            background: #f7f7f7;
+        }
+
+        #app {
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
     <template id="single-spa-layout">
         <single-spa-router>
             <nav class="topnav">
@@ -32,12 +48,19 @@
             <main class="main-content">
                 <route default>
                     <p>
-                        This example project shows independently built and deployed micro frontends that use React and
-                        single-spa.<br />
-                        Each link above takes you to a different micro frontend.
+                        This example project shows independently built and deployed micro frontends that use React,
+                        single-spa and @naturacosmeticos/natds-web.<br />
                     </p>
-                    <application name="@natds-js-examples/typescript"></application>
-                    <application name="@natds-js-examples/react"></application>
+                    <div id="app">
+                        <div>
+                            <h3>@natds-js-examples/typescript</h1>
+                                <application name="@natds-js-examples/typescript"></application>
+                        </div>
+                        <div>
+                            <h3>@natds-js-examples/react</h1>
+                                <application name="@natds-js-examples/react"></application>
+                        </div>
+                    </div>
                 </route>
             </main>
         </single-spa-router>

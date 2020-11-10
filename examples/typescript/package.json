@@ -20,7 +20,7 @@
   ],
   "author": "Natura & Co. <designsystem@natura.net>",
   "devDependencies": {
-    "@naturacosmeticos/natds-web": "^0.21.39",
+    "@naturacosmeticos/natds-web": "^1.0.0-alpha.3",
     "@types/react": "16.9.43",
     "@types/react-dom": "16.9.8",
     "react": "16.13.1",
