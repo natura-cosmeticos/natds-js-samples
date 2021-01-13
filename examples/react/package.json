@@ -45,7 +45,7 @@
   },
   "devDependencies": {
     "react-scripts": "^3.4.2",
-    "react-test-renderer": "^16.13.1",
+    "react-test-renderer": "^17.0.1",
     "single-spa-react": "^3.1.0",
     "systemjs-webpack-interop": "^2.1.2",
     "webpack-cli": "^4.1.0",
