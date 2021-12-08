@@ -40,7 +40,7 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "webpack": "4.42.0",
-    "webpack-config-single-spa-react": "^1.17.4",
+    "webpack-config-single-spa-react": "^4.0.3",
     "webpack-dev-server": "4.6.0"
   },
   "devDependencies": {
