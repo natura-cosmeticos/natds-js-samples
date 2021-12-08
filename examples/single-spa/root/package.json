@@ -11,7 +11,7 @@
   "devDependencies": {
     "@babel/core": "7.16.0",
     "babel-loader": "8.1.0",
-    "clean-webpack-plugin": "^3.0.0",
+    "clean-webpack-plugin": "^4.0.0",
     "html-webpack-plugin": "^4.4.1",
     "single-spa": "^5.5.5",
     "single-spa-layout": "^2.0.1",
