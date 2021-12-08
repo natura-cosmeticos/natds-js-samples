@@ -5,7 +5,7 @@ notifications:
   email: false
 node_js:
   - 10.16.3
-  - 12.17.0
+  - 12.22.7
 env:
   - REACT_VERSION=16.9
   - REACT_VERSION=16.12
