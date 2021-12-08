@@ -37,7 +37,7 @@
     "@babel/runtime": "^7.12.1",
     "@naturacosmeticos/natds-web": "1.4.0",
     "babel-loader": "8.2.3",
-    "react": "16.13.1",
+    "react": "16.14.0",
     "react-dom": "16.13.1",
     "webpack": "4.42.0",
     "webpack-config-single-spa-react": "^4.0.3",
