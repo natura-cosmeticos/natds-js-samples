@@ -1,18 +1,18 @@
 version: 2
 updates:
-  - package-ecosystem: "npm"
+  - package-ecosystem: "yarn"
     directory: "/"
     schedule:
-      interval: "daily"
-  - package-ecosystem: "npm"
-    directory: "examples/cdn/"
+      interval: "weekly"
+  - package-ecosystem: "yarn"
+    directory: "examples/react/"
     schedule:
-      interval: "daily"
-  - package-ecosystem: "npm"
-    directory: "examples/react-16.9/"
-    schedule:
-      interval: "daily"
-  - package-ecosystem: "npm"
+      interval: "weekly"
+  - package-ecosystem: "yarn"
     directory: "examples/single-spa/root/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
+  - package-ecosystem: "yarn"
+    directory: "examples/typescript/"
+    schedule:
+      interval: "weekly"
