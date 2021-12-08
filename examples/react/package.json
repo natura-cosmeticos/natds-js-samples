@@ -38,7 +38,7 @@
     "@naturacosmeticos/natds-web": "0.15.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "webpack-config-single-spa-react": "^1.17.4"
+    "webpack-config-single-spa-react": "^4.0.3"
   },
   "devDependencies": {
     "react-scripts": "^3.4.2",
