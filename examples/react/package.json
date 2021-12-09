@@ -39,7 +39,7 @@
     "@babel/runtime": "^7.12.1",
     "@naturacosmeticos/natds-react": "2.15.1",
     "@naturacosmeticos/natds-web": "1.4.0",
-    "babel-loader": "8.1.0",
+    "babel-loader": "8.2.3",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "webpack": "4.42.0",
