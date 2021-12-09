@@ -3,6 +3,7 @@
   "private": true,
   "description": "Example project for Design System UI components for React web with TypeScript",
   "main": "src/index.tsx",
+  "version": "1.0.0",
   "scripts": {
     "start": "react-scripts start",
     "start:spa": "webpack serve --port=8081",

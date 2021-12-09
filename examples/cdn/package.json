@@ -3,6 +3,7 @@
   "private": true,
   "description": "Example project for Design System React Web with CDN",
   "main": "src/index.html",
+  "version": "1.0.0",
   "scripts": {
     "start": "open ./index.html"
   },
