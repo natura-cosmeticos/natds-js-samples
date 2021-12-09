@@ -1,23 +1,48 @@
-import React from 'react';
-import { Button, Paper, TextField, Spacing } from "@naturacosmeticos/natds-web";
+import React, { useState } from 'react';
+import { Button, Card, Checkbox, TextField } from "@naturacosmeticos/natds-react";
+import styles from './index.styles'
 
+export const App = () => {
+  const { title, footer, card } = styles()
+  const [showPassword, setShowPassword] = useState(false)
+  const [checked, setChecked] = useState(false)
 
-export const App = () => (
-    <Paper component="form">
-        <Spacing padding="small">
-            <TextField
-                helpText={"Informe um e-mail válido da Natura"}
-                label={"E-mail"}
-                required={true}
-                type={"email"} />
-            <TextField
-                helpText={"Informe uma senha válida"}
-                label={"Senha"}
-                required={true}
-                type={"password"} />
-            <Button color={"primary"} type={"submit"} variant={"contained"}>Entrar</Button>
-            <Button color={"primary"}>Criar uma conta</Button>
-            <Button color={"primary"}>Esqueci a minha senha</Button>
-        </Spacing>
-    </Paper>
-)
+  const passowordIcon = showPassword ? 'outlined-action-visibility' : 'outlined-action-visibilityoff'
+  const textFieldType = showPassword ? 'text' : 'password'
+
+  return (
+    <Card>
+      <div className={card}>
+        <h2 className={title}>Já possuo uma conta</h2>
+        <TextField
+          size="medium"
+          id="email"
+          label="Email ou CPF"
+          required
+          onBlur={() => ''}
+          onChange={() => ''}
+          onFocus={() => ''}
+        />
+        <TextField
+          size="medium"
+          ariaLabel=""
+          id="password"
+          label="Senha"
+          required
+          type={textFieldType}
+          action="icon"
+          iconName={passowordIcon}
+          onClick={() => setShowPassword(!showPassword)}
+          onBlur={() => ''}
+          onChange={() => ''}
+          onFocus={() => ''}
+        />
+        <Checkbox label="Memorizar senha" onChange={() => setChecked(!checked)} value="memorize-password" checked={checked} />
+        <div className={footer}>
+          <Button onClick={() => ''} fullWidth type="submit">login</Button>
+          <a href="#">esqueceu sua senha?</a>
+        </div>
+      </div>
+    </Card>
+  )
+}

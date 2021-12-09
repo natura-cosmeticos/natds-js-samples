@@ -1,9 +1,11 @@
 import React from 'react';
 import { App } from './App'
-import { Provider } from "@naturacosmeticos/natds-web";
+import { buildTheme, ThemeProvider } from "@naturacosmeticos/natds-react";
+
+const theme = buildTheme('natura', 'light')
 
 export const Root = () => (
-  <Provider cssPrefix="typescript-sample-app">
+  <ThemeProvider theme={theme} cssPrefix="typescript-sample-app">
     <App />
-  </Provider>
+  </ThemeProvider>
 )
