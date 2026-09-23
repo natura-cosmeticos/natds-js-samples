@@ -7,7 +7,7 @@
     "examples/single-spa"
   ],
   "engines": {
-    "node": ">=14.10.1",
-    "npm": ">=6.14.8"
+    "node": "v26.10.0",
+    "npm": "12.1.0"
   }
 }
